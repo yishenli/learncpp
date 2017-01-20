@@ -1,6 +1,7 @@
 # learncpp
 
 Rule book:
+
 -------------------------------------------------------Chapter 01--------------------------------------------------------------
   1. Never nest comments inside of other comments
   2. Initialize your variables
@@ -13,5 +14,6 @@ Rule book:
   8. Each .cpp file should explicitly #include all of the header files it needs to compile
   9. Use the non .h version of a library if it exists, and access the functionality through the std namespaces. If the non .h 
      version does not exist, or your are creating your own headers, use the .h version.
+     
 -------------------------------------------------------Chapter 02--------------------------------------------------------------
   10. 
