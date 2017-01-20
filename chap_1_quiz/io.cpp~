@@ -1,0 +1,15 @@
+#include <iostream>
+
+int readNumber()
+{
+  int readNumber;
+  std::cout << "Please enter an integer: ";
+  std::cin >> readNumber;
+
+  return readNumber;
+}
+
+void writeAnswer(int printNum)
+{
+  std::cout << "The sum of the two integers is: " << printNum << std::endl;
+}
