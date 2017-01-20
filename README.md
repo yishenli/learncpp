@@ -1,2 +1,2 @@
 # learncpp
-Going through learncpp.com
+Code repository for chapter one
