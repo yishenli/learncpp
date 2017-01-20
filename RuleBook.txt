@@ -1,0 +1,13 @@
+Rule book:
+-------------------------------------------------------Chapter 01--------------------------------------------------------------
+Never nest comments inside of other comments
+Initialize your variables
+Don't forget to include paretheses while making a function call
+Names used for function parameters or variables declared in a funcation body are only visible within the functions that declares them
+When addressing compile errors in your programs, always resolve the first error produced first
+When you use an identifier in a namesparce, you always have to identify the namespace along with the identifier
+Use angled brackets to include header files that come with compiler. Use double quotes to include any other header files
+Each .cpp file should explicitly #include all of the header files it needs to compile
+Use the non .h version of a library if it exists, and access the functionality through the std namespaces. If the non .h version does not exist, or your are creating your own headers, use the .h version.
+-------------------------------------------------------Chapter 02--------------------------------------------------------------
+  Favour direct initialization over copy initialization
