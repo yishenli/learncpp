@@ -1,0 +1,11 @@
+  Q1 While compiling, neither symbolic nor literal constants will cause compiler erorr, however, the usage of literal constants provides minimal contexts. Therefore, it would be difficult to change the value in the future.
+
+  Q2 
+  a) int would be enough. Usually age comes in integers and rarely can one live longer than 4 bytes. Not const since it will change over time.
+  b) bool. It's a yes and no question.
+  c) const double. It has decimals and an s.f. of 8. Float isn't enough for the precision. It's also a constant.
+  d) either int or const int. Textbooks isn't thick enough to use floating point numbers, and there shouldn't be a fraction of a page. Usually textbooks have different versions, therefore it is a viable option not to make it a constant.
+  e) float. For practical reasons, stock price aren't high enough to use doubles, and precision of a float would be enough to cover 2 decimal points.
+  f) int. Number is integer. 4 bytes of int is sufficient to take a number as large as millions. However, some machines has int has 2 bytes and should use float.
+  g) char. Input is a single letter.
+  h) int. 
