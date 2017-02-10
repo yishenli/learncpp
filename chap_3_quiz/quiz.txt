@@ -1,0 +1,32 @@
+1)
+  a) (5>3 && 4<8)
+    -> (1 && 1)
+    -> 1
+  b) (4>6 && true)
+    -> (0 && true)
+    -> 0
+  c) (3>=3 || false)
+    -> (1 || false)
+    -> 1
+  d) (true || false)?4:5
+    -> true?4:5
+    -> 4
+
+2)
+  a) 1
+  b) 4
+
+3)
+  a) b1101 = 1 + 4 + 8 = 13
+  b) b101110 = 2 + 4 + 8 + 32 = 46
+
+4)
+  a) d15 = 8 + 4 + 2 + 1 = 1111
+  b) d53 = 32 + 16 + 4 + 1 = 110101
+
+5)
+  a) because x will be evaluated twice in the case.
+  b) division yields a number that has the same sign of the numerator (?) // ROUNDING TO -4 OR -3 UNKNOWN
+  c) modulus yields only positive numbers (?) // EITHER 1 OR -1
+  d) floating number comparison may be errors due to decimal to binary conversion
+  e) division by zero is undefined // WILL CRASH THE PROGRAM

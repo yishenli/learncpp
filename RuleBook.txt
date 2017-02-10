@@ -11,3 +11,22 @@ Rule book:
   9. Use the non .h version of a library if it exists, and access the functionality through the std namespaces. If the non .h version does not exist, or your are creating your own headers, use the .h version.
 -------------------------------------------------------Chapter 02--------------------------------------------------------------
   10. Favour direct initialization over copy initialization
+  11. If you are using a C++11 compatible compiler, favour uniform initialization
+  12. Always initialize your variables, or assign a value to them as soon as possible after defining them
+  13. Avoid defining multiple variables on a single line if initailizing any of them
+  14. Define variables as close to their first use as you reasonably can
+  15. Use an empty parameter list instead of void to indicate no function parameters are expected
+  16. Favour signed integers over unsigned integers
+  17. Do not depend on the results of overflow in you program
+  18. Be careful when using integer division, as you will lose any fractional parts of the result
+  19. Favour double over float unless space is at a premium, as the lack of precision in a float will often lead to inaccuracies
+  20. Don't use magic numbers in your code (magic numbers are literals without context)
+  21. Any variable that should not change values after initialization should be declared as const (or constexpr)
+  22. Avoid using #define to create symbolic constants, use const varialbes to provide a name and context for your magic numbers instead
+  23. Favour pre-increment and pre-decrement over post-increment and post-decrement. The prefix versions are not only more preformant, you are less likely to run into strange issues with them
+  24. Don't use a variable that has a side effect applied to it more than once in a given statement. If you do, the result is undefined
+  25. Avoid using the comma operator, except within for loops
+  26. Only use the conditional operator for simple conditionals where it enhances readability
+  27. If logical NOT is intended to operate on the result of other operators, the other operators and their operands need to be enclosed in parenthesis
+  28. It's a good idea to always use parenthesis to make your intent clear - that way, you don't even have to remember the precedence rules
+  29. When dealing with bit operators, use unsigned integers
