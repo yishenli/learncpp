@@ -30,3 +30,13 @@ Rule book:
   27. If logical NOT is intended to operate on the result of other operators, the other operators and their operands need to be enclosed in parenthesis
   28. It's a good idea to always use parenthesis to make your intent clear - that way, you don't even have to remember the precedence rules
   29. When dealing with bit operators, use unsigned integers
+  30. Avoid using nested variable with the same names as variables in an outer block
+  31. Define variables in the smallest scope possible
+  32. Avoid "using" statements outside of a function
+  33. Avoid const casts and reinterpret casts unless you have a very good reason to use them
+  34. Avoid C_style casts
+  35. If reading numberic values with std::cin, it's a good idea to remove the extraneous newline using std::cin.ignore()
+  36. (Best practise) Don't assign specific values to your enumerators
+  37. Don't assign the same value to two enumerators in the smae enumeration unless there is a very good reason
+  38. Favour type aliases over typedefs if your compiler is C++11 compatible
+  39. 
