@@ -39,4 +39,18 @@ Rule book:
   36. (Best practise) Don't assign specific values to your enumerators
   37. Don't assign the same value to two enumerators in the smae enumeration unless there is a very good reason
   38. Favour type aliases over typedefs if your compiler is C++11 compatible
-  39. 
+  39. If defining variables used in a case statement, do so in a block inside the case (or before the switch if appropriate)
+  40. Avoid use of goto statements unless necessary
+  41. Always use signed integers for your loop variables
+  42. Test your loops with known inputs that cause it to iterate 0, 1, and 2 times
+  43. Error handling:
+      a) Could extraction fail?
+      b) Could the user enter more input than expected?
+      c) Could the user enter meaningless input?
+      d) Could the user overflow an input?
+  44. Testing:
+      a) Compile often, and test any non-trivial functions when you write them
+      b) Ensure your testing hits every statement in the function
+      c) Test each of your branches such that they are true at least once and false at least once
+      d) Use the 0, 1, 2 test to ensure your loops work correctly with different number of iterations
+      e) Test different categories of input values to make sure your unit handles them properly
